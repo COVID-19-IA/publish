@@ -1,0 +1,80 @@
+@charset 'utf-8';
+
+@import url(../../node_modules/normalize.css/normalize.css);
+
+html {
+  font-family: "FP-ヒラギノUD角ゴ StdN W3", "FP-HiraginoUDSansStdN-W3",
+    sans-serif;
+  color: #232323;
+  line-height: 1.6;
+}
+
+body {
+  width: 90%;
+  max-width: 40em;
+  margin: 3em auto;
+}
+
+a {
+  text-underline-position: under;
+}
+
+img {
+  width: auto;
+  max-width: 100%;
+  height: auto;
+}
+
+section {
+  margin-top: 6em;
+}
+
+section section {
+  margin-top: 5em;
+}
+
+#Reference {
+  margin-top: 6em;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "FP-ヒラギノUD角ゴ StdN W6", "FP-HiraginoUDSansStdN-W6",
+    sans-serif;
+}
+
+ol,
+ul,
+dl {
+  margin-top: 1em;
+}
+
+li + li,
+ol ol,
+ul ul {
+  margin-top: 0.5em;
+}
+
+[role="directory"] {
+  margin-bottom: 4em;
+}
+
+/* https://github.com/ampproject/amphtml/blob/2e9a940e78df8de38a6c06a0772aeaa4839a24d1/css/ampshared.css#L164-L204 */
+.visually-hidden {
+  position: fixed !important;
+  top: 0px !important;
+  left: 0px !important;
+  width: 4px !important;
+  height: 4px !important;
+  opacity: 0 !important;
+  overflow: hidden !important;
+  border: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  display: block !important;
+  visibility: visible !important;
+}
