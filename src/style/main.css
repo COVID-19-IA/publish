@@ -3,10 +3,11 @@
 @import url(../../node_modules/normalize.css/normalize.css);
 
 html {
-  font-family: "FP-ヒラギノUD角ゴ StdN W3", "FP-HiraginoUDSansStdN-W3",
+  font-family: "TazuganeInfoStdN-Regular",
     sans-serif;
   color: #232323;
   line-height: 1.6;
+  background-color: #E0FF00;
 }
 
 body {
@@ -38,12 +39,15 @@ section section {
 }
 
 h1,
-h2,
+h2 {
+  font-family: "TazuganeGothicStdN-Heavy",
+    sans-serif;
+}
 h3,
 h4,
 h5,
 h6 {
-  font-family: "FP-ヒラギノUD角ゴ StdN W6", "FP-HiraginoUDSansStdN-W6",
+  font-family: "TazuganeInfoStdN-Bold",
     sans-serif;
 }
 
