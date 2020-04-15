@@ -1,7 +1,7 @@
 const dayjs = require("dayjs");
 
 module.exports = function (eleventyConfig) {
-  eleventyConfig.addPassthroughCopy("src/**/*.(png|jpg|svg|webp)");
+  eleventyConfig.addPassthroughCopy("src/**/*.(png|jpg|svg|webp|pdf)");
   eleventyConfig.addPassthroughCopy("src/favicon.ico");
 
   eleventyConfig.addWatchTarget("./src/");
