@@ -84,8 +84,9 @@ ul ul {
 }
 
 .Header svg {
-  width: 19.0625rem;
-  height: 5.375rem;
+  width: 100%;
+  max-width: 19.0625rem;
+  height: auto;
   vertical-align: top;
 }
 
