@@ -112,12 +112,10 @@ ul ul {
 
 .Section h2 {
   font-size: 1.5rem;
-  text-align: center;
 }
 
 .Section h3 {
   font-size: 1.25rem;
-  text-align: center;
 }
 
 .Section p {
@@ -129,15 +127,27 @@ ul ul {
 
 .HeadingAnchor {
   display: flex;
-  justify-content: center;
   align-items: center;
   margin-bottom: 2rem;
+}
+
+@media (min-width: 426px) {
+  .HeadingAnchor {
+    justify-content: center;
+  }
 }
 
 .HeadingAnchor h2,
 .HeadingAnchor h3 {
   margin-top: 0;
   margin-bottom: 0;
+}
+
+@media (min-width: 426px) {
+  .HeadingAnchor h2,
+  .HeadingAnchor h3 {
+    text-align: center;
+  }
 }
 
 .HeadingAnchor a {
