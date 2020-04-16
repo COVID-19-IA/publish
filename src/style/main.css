@@ -11,17 +11,10 @@ html {
 }
 
 body {
+  margin: 5rem auto 1.875rem;
   width: 90%;
   max-width: 63.75rem;
-  margin-top: 5rem;
-  margin-bottom: 1.875rem;
-  margin-right: auto;
-  margin-left: auto;
   letter-spacing: 0.03em;
-}
-
-a {
-  text-underline-position: under;
 }
 
 a:link,
@@ -30,7 +23,7 @@ a:hover,
 a:focus,
 a:active {
   color: currentColor;
-  text-decoration: none;
+  text-underline-position: under;
 }
 
 img {
@@ -60,10 +53,6 @@ h6 {
   font-family: "TazuganeInfoStdN-Bold",
     sans-serif;
   letter-spacing: 0.05em;
-}
-
-h2.-hasBreak {
-  text-align: center;
 }
 
 ol,
@@ -100,7 +89,6 @@ ul ul {
   margin-right: auto;
   margin-left: auto;
   max-width: 38.75rem;
-  font-size: 0.875rem;
 }
 
 .Header h1 {
@@ -122,7 +110,7 @@ ul ul {
   /* 抑えの線 */
   content: "";
   display: block;
-  margin: 4.375rem auto 3.75rem;
+  margin: 3.75rem auto;
   width: 30px;
   height: 8px;
   background-color: #fff;
@@ -130,17 +118,19 @@ ul ul {
 
 .Section h2 {
   font-size: 1.5rem;
+  text-align: center;
 }
 
 .Section h3 {
-  font-size: 1.125rem;
+  font-size: 1.25rem;
+  text-align: center;
 }
 
 .Section p {
   margin-right: auto;
   margin-left: auto;
   max-width: 38.75rem;
-  font-size: 0.875rem;
+  hanging-punctuation: allow-end;
 }
 
 .HeadingAnchor {
@@ -207,10 +197,12 @@ ul ul {
   margin-top: 1.25rem;
   width: 100%;
   height: 3.75rem;
+  line-height: 20px;
   border-radius: 99rem;
   letter-spacing: 0.05em;
   background-color: #fff;
   box-shadow: 0 4px 10px rgba(0,0,0, 0.07);
+  text-decoration: none;
 }
 
 .PosterList a::before {
@@ -229,7 +221,6 @@ ul ul {
   margin-left: auto;
   padding-left: 0;
   max-width: 38.75rem;
-  font-size: 0.875rem;
 }
 
 .BulletedList li {
