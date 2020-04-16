@@ -175,16 +175,45 @@ ul ul {
 
 .PosterList {
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
-  justify-content: space-between;
-  margin-top: 3.75rem;
+  margin: 0;
   padding: 0;
+}
+
+@media (min-width: 426px) {
+  .PosterList {
+    margin-right: -1.5625rem;
+    margin-left: -1.5625rem;
+  }
+}
+
+@media (min-width: 769px) {
+  .PosterList {
+    margin-right: -1.875rem;
+    margin-left: -1.875rem;
+  }
 }
 
 .PosterList li {
   list-style: inside none;
-  margin: 0;
+  margin-top: 1.875rem;
+  margin-bottom: 1.875rem;
   max-width: 18.75rem;
+}
+
+@media (min-width: 426px) {
+  .PosterList li {
+    margin-right: 1.5625rem;
+    margin-left: 1.5625rem;
+  }
+}
+
+@media (min-width: 769px) {
+  .PosterList li {
+    margin-right: 1.875rem;
+    margin-left: 1.875rem;
+  }
 }
 
 .PosterList img {
