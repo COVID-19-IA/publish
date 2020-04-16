@@ -159,12 +159,18 @@ ul ul {
   background-image: url(./image/link.svg);
   background-repeat: no-repeat;
   background-position: center center;
-  opacity: 0;
 }
 
-.HeadingAnchor a:focus,
-.HeadingAnchor:hover a {
-  opacity: 1;
+@media (min-width: 426px) {
+  .HeadingAnchor a {
+    opacity: 0;
+  }
+
+  :target .HeadingAnchor a,
+  .HeadingAnchor a:focus,
+  .HeadingAnchor:hover a {
+    opacity: 1;
+  }
 }
 
 .PosterList {
