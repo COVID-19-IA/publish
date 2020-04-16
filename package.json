@@ -20,7 +20,8 @@
     "lint:css": "stylelint src/style/*",
     "validate:html": "html-validator --file=docs/index.html --verbose",
     "test": "npm-run-all -p lint:* validate:html \"prettier --check\"",
-    "prettier": "prettier src/**/*.css"
+    "prettier": "prettier src/**/*.css",
+    "prettier:write": "prettier --write ."
   },
   "devDependencies": {
     "@11ty/eleventy": "^0.10.0",
