@@ -245,14 +245,27 @@ ul ul {
   margin-top: 1rem;
 }
 
-.License {
+.Footer {
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 0.75rem;
 }
 
-.License svg {
+.Footer address::before {
+  content: "";
+  display: inline-block;
+  margin-right: 0.625rem;
+  margin-left: 0.625rem;
+  width: 0.0625rem;
+  height: 1rem;
+  vertical-align: middle;
+  background-color: currentColor;
+  transform: skewX(-22.5deg);
+  box-shadow: 1px 0 0 rgba(0,0,0, 0.25)
+}
+
+.Footer svg {
   margin-right: 0.625rem;
   margin-left: 0.625rem;
   vertical-align: top;
