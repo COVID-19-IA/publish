@@ -3,11 +3,10 @@
 @import url(../../node_modules/normalize.css/normalize.css);
 
 html {
-  font-family: "TazuganeInfoStdN-Regular",
-    sans-serif;
+  font-family: "TazuganeInfoStdN-Regular", sans-serif;
   color: #232323;
   line-height: 1.6;
-  background-color: #E0FF00;
+  background-color: #e0ff00;
 }
 
 body {
@@ -42,16 +41,14 @@ footer {
 
 h1,
 h2 {
-  font-family: "TazuganeGothicStdN-Heavy",
-    sans-serif;
+  font-family: "TazuganeGothicStdN-Heavy", sans-serif;
   letter-spacing: 0.05em;
 }
 h3,
 h4,
 h5,
 h6 {
-  font-family: "TazuganeInfoStdN-Bold",
-    sans-serif;
+  font-family: "TazuganeInfoStdN-Bold", sans-serif;
   letter-spacing: 0.05em;
 }
 
@@ -201,7 +198,7 @@ ul ul {
   border-radius: 99rem;
   letter-spacing: 0.05em;
   background-color: #fff;
-  box-shadow: 0 4px 10px rgba(0,0,0, 0.07);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.07);
   text-decoration: none;
 }
 
@@ -262,7 +259,7 @@ ul ul {
   vertical-align: middle;
   background-color: currentColor;
   transform: skewX(-22.5deg);
-  box-shadow: 1px 0 0 rgba(0,0,0, 0.25)
+  box-shadow: 1px 0 0 rgba(0, 0, 0, 0.25);
 }
 
 .Footer svg {
