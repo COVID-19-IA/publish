@@ -299,20 +299,6 @@ ul ul {
 }
 
 .Contact {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   font-size: 0.75rem;
-}
-
-.Contact address::before {
-  content: "";
-  display: inline-block;
-  margin-right: 0.625rem;
-  margin-left: 0.625rem;
-  width: 0.0625rem;
-  height: 0.9rem;
-  vertical-align: middle;
-  background-color: currentColor;
-  transform: skewX(-15deg);
+  text-align: center;
 }
