@@ -83,16 +83,16 @@ ul ul {
   text-align: center;
 }
 
+.Header span {
+  display: block;
+  margin-top: 3.75rem;
+}
+
 .Header svg {
   width: 100%;
   max-width: 19.0625rem;
   height: auto;
   vertical-align: top;
-}
-
-.Header h1 span {
-  display: block;
-  margin-top: 3.75rem;
 }
 
 .Header p {
