@@ -44,6 +44,7 @@ h2 {
   font-family: "TazuganeGothicStdN-Heavy", sans-serif;
   letter-spacing: 0.05em;
 }
+
 h3,
 h4,
 h5,
@@ -57,6 +58,7 @@ ul,
 dl {
   margin-top: 2rem;
 }
+
 ol ol,
 ul ul {
   margin-top: 1rem;
@@ -123,6 +125,23 @@ ul ul {
   margin-right: auto;
   margin-left: auto;
   max-width: 38.75rem;
+  hanging-punctuation: allow-end;
+}
+
+.Section dl {
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 38.75rem;
+  line-height: 2;
+}
+
+.Section dt {
+  margin-top: 1rem;
+  font-family: "TazuganeInfoStdN-Bold", sans-serif;
+}
+
+.Section dd {
+  margin-left: 0;
   hanging-punctuation: allow-end;
 }
 
