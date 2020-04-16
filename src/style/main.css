@@ -78,18 +78,9 @@ ul ul {
   visibility: visible !important;
 }
 
-.Header hgroup {
-  text-align: center;
-}
-
-.Header p {
-  margin-right: auto;
-  margin-left: auto;
-  max-width: 38.75rem;
-}
-
 .Header h1 {
-  font-size: 1rem;
+  font-size: 2.125rem;
+  text-align: center;
 }
 
 .Header svg {
@@ -98,9 +89,15 @@ ul ul {
   vertical-align: top;
 }
 
-.Header h2 {
+.Header h1 span {
+  display: block;
   margin-top: 3.75rem;
-  font-size: 2.125rem;
+}
+
+.Header p {
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 38.75rem;
 }
 
 .Header::after {
