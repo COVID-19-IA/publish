@@ -1,6 +1,6 @@
-# publish
+# follow
 
-https://covid-19-act.jp/publish/
+https://covid-19-act.jp/follow/
 
 ## development
 

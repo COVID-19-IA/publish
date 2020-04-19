@@ -1,9 +1,9 @@
 {
   "private": true,
-  "name": "publish",
+  "name": "follow",
   "version": "1.0.0",
   "main": "index.js",
-  "repository": "git@github.com:COVID-19-IA/publish.git",
+  "repository": "git@github.com:COVID-19-IA/follow.git",
   "author": "Takehiro Kawase <info@polaar.jp>",
   "license": "CC BY-NC-SA 4.0",
   "scripts": {
