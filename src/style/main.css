@@ -256,6 +256,33 @@ ul ul {
   margin-top: 1.25rem;
 }
 
+.BtnList {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+}
+
+@media (min-width: 426px) {
+  .BtnList {
+    margin-right: -0.78125rem;
+    margin-left: -0.78125rem;
+  }
+}
+
+.BtnList li {
+  list-style: none inside;
+  margin-top: 1.875rem;
+}
+
+@media (min-width: 426px) {
+  .BtnList li {
+    margin-right: 0.78125rem;
+    margin-left: 0.78125rem;
+  }
+}
+
 .Btn {
   display: flex;
   justify-content: center;
