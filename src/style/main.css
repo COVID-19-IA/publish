@@ -302,6 +302,7 @@ ul ul {
 
 .Btn.-disabled {
   opacity: 0.5;
+  box-shadow: none;
 }
 
 .ColumnList .Btn {
