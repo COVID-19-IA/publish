@@ -249,6 +249,7 @@ ul ul {
   width: 100%;
   max-width: 18.75rem;
   height: auto;
+  vertical-align: top;
 }
 
 .Poster figcaption {
@@ -259,8 +260,7 @@ ul ul {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 1.25rem;
-  width: 100%;
+  width: 15.625rem;
   height: 3.75rem;
   line-height: 20px;
   border-radius: 99rem;
@@ -268,6 +268,15 @@ ul ul {
   background-color: #fff;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.07);
   text-decoration: none;
+}
+
+.ColumnList .Btn {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.Poster + .Btn {
+  margin-top: 1.25rem;
 }
 
 .Btn[href$=".pdf"]::before {
