@@ -42,7 +42,7 @@ footer {
 h1,
 h2 {
   font-family: "TazuganeGothicStdN-Heavy", sans-serif;
-  letter-spacing: 0.05em;
+  letter-spacing: 0.03em;
 }
 
 h3,
@@ -50,7 +50,7 @@ h4,
 h5,
 h6 {
   font-family: "TazuganeInfoStdN-Bold", sans-serif;
-  letter-spacing: 0.05em;
+  letter-spacing: 0.03em;
 }
 
 ol,
