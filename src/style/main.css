@@ -251,7 +251,7 @@ ul ul {
   margin-top: 1.25rem;
 }
 
-.PosterList a {
+.Btn {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -266,7 +266,7 @@ ul ul {
   text-decoration: none;
 }
 
-.PosterList a::before {
+.Btn[href$=".pdf"]::before {
   content: "";
   margin-right: 0.625rem;
   width: 16px;
