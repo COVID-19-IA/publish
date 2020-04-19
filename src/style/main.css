@@ -236,9 +236,13 @@ ul ul {
 }
 
 .Poster {
-  margin: 0;
+  margin: 3.75em 0 0;
   font-size: 1.125rem;
   text-align: center;
+}
+
+.ColumnList .Poster {
+  margin-top: 0;
 }
 
 .Poster img {
