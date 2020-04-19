@@ -193,7 +193,7 @@ ul ul {
   }
 }
 
-.PosterList {
+.ColumnList {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -202,34 +202,34 @@ ul ul {
 }
 
 @media (min-width: 426px) {
-  .PosterList {
+  .ColumnList {
     margin-right: -1.5625rem;
     margin-left: -1.5625rem;
   }
 }
 
 @media (min-width: 769px) {
-  .PosterList {
+  .ColumnList {
     margin-right: -1.875rem;
     margin-left: -1.875rem;
   }
 }
 
-.PosterList li {
+.ColumnList li {
   list-style: inside none;
   margin-top: 3.75rem;
   max-width: 18.75rem;
 }
 
 @media (min-width: 426px) {
-  .PosterList li {
+  .ColumnList li {
     margin-right: 1.5625rem;
     margin-left: 1.5625rem;
   }
 }
 
 @media (min-width: 769px) {
-  .PosterList li {
+  .ColumnList li {
     margin-right: 1.875rem;
     margin-left: 1.875rem;
   }
