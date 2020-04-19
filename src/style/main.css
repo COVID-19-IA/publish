@@ -235,17 +235,20 @@ ul ul {
   }
 }
 
-.PosterList img {
+.Poster {
+  margin: 0;
+  font-size: 1.125rem;
+  text-align: center;
+}
+
+.Poster img {
   width: 100%;
   max-width: 18.75rem;
   height: auto;
 }
 
-.PosterList span {
-  display: block;
+.Poster figcaption {
   margin-top: 1.25rem;
-  font-size: 1.125rem;
-  text-align: center;
 }
 
 .PosterList a {
