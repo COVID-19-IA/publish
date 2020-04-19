@@ -103,11 +103,11 @@ ul ul {
   max-width: 38.75rem;
 }
 
-.Header::after {
+.Section.-hasSeparator::before {
   /* 抑えの線 */
   content: "";
   display: block;
-  margin: 3.75rem auto;
+  margin: 4.375rem auto;
   width: 30px;
   height: 8px;
   background-color: #fff;
@@ -217,8 +217,7 @@ ul ul {
 
 .PosterList li {
   list-style: inside none;
-  margin-top: 1.875rem;
-  margin-bottom: 1.875rem;
+  margin-top: 3.75rem;
   max-width: 18.75rem;
 }
 
