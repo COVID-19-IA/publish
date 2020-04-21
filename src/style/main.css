@@ -178,7 +178,7 @@ ul ul {
   width: 24px;
   height: 24px;
   line-height: inherit;
-  background-image: url(./image/link.svg);
+  background-image: url(image/link.svg);
   background-repeat: no-repeat;
   background-position: center center;
 }
@@ -320,7 +320,7 @@ ul ul {
   width: 16px;
   height: 20px;
   line-height: inherit;
-  background-image: url(./image/pdf.svg);
+  background-image: url(image/pdf.svg);
   background-repeat: no-repeat;
   background-position: center center;
 }
