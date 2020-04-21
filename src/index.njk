@@ -5,6 +5,7 @@ date: Last Modified
 <html lang="ja">
 
   <head>
+    {% if (env.NODE_ENV === "production") %}<base href="https://covid-19-act.jp/follow/">{% endif %}
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Act Against COVID-19 - 医療機関用ツール</title>
