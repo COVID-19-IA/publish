@@ -21,6 +21,10 @@ module.exports = function (eleventyConfig) {
     return process.env.NODE_ENV === "production" ? `<base href="${v}">` : ""
   });
 
+  eleventyConfig.addNunjucksShortcode("unsslize", (v) => {
+    return v.replace("https:", "http:")
+  })
+
   return {
     dir: { input: "src", output: "docs" },
     passthroughFileCopy: true,
