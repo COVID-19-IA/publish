@@ -21,7 +21,7 @@
     "validate:html": "html-validator --file=docs/index.html --verbose",
     "test": "npm-run-all -p lint:* validate:html \"prettier --check\"",
     "prettier": "prettier src/**/*.css",
-    "prettier:write": "prettier --write ."
+    "prettier:fix": "prettier --write ."
   },
   "devDependencies": {
     "@11ty/eleventy": "^0.10.0",
