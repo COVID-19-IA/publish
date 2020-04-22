@@ -314,7 +314,8 @@ ul ul {
   margin-top: 1.25rem;
 }
 
-.Btn[href$=".pdf"]::before {
+.Btn[href$=".pdf"]::before,
+.Btn[data-href$=".pdf"]::before {
   content: "";
   margin-right: 0.625rem;
   width: 16px;
