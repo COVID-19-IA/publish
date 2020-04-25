@@ -93,7 +93,7 @@ ul ul {
   margin-top: 3.75rem;
 }
 
-.Header p {
+.Header__inner {
   margin-right: auto;
   margin-left: auto;
   max-width: 38.75rem;
@@ -117,10 +117,13 @@ ul ul {
   font-size: 1.25rem;
 }
 
-.Section p {
+.Section__inner {
   margin-right: auto;
   margin-left: auto;
   max-width: 38.75rem;
+}
+
+.Section p {
   hanging-punctuation: allow-end;
 }
 
