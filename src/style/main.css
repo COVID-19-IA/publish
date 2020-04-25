@@ -85,18 +85,12 @@ ul ul {
 .Header h1 {
   font-size: 2.125rem;
   text-align: center;
+  line-height: 1;
 }
 
 .Header span {
   display: block;
   margin-top: 3.75rem;
-}
-
-.Header svg {
-  width: 100%;
-  max-width: 20.75rem;
-  height: auto;
-  vertical-align: top;
 }
 
 .Header p {
