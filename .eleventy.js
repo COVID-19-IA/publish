@@ -16,13 +16,9 @@ module.exports = function (eleventyConfig) {
     return dayjs(v).format("YYYY-MM-DDTHH:mmZ");
   });
 
-  // Nunjucks Shortcode
-  eleventyConfig.addNunjucksShortcode("baseTag", (v) => {
-    return process.env.NODE_ENV === "production" ? `<base href="${v}">` : "";
-  });
-
-  eleventyConfig.addNunjucksShortcode("unsslize", (v) => {
-    return v.replace("https:", "http:");
+  // browser-sync option
+  eleventyConfig.setBrowserSyncConfig({
+    startPath: "/follow/"
   });
 
   return {

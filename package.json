@@ -9,7 +9,7 @@
   "scripts": {
     "build": "NODE_ENV=production npm-run-all -p build:*",
     "build:html": "eleventy",
-    "build:css": "postcss src/style/main.css --config postcss.config.js --output docs/style.css",
+    "build:css": "postcss src/follow/style/main.css --config postcss.config.js --output docs/follow/style.css",
     "build:js": "webpack",
     "watch:html": "DEBUG=Eleventy* yarn build:html --serve",
     "watch:css": "yarn build:css --watch",
@@ -17,11 +17,11 @@
     "dev": "npm-run-all -p watch:*",
     "clear": "rimraf docs",
     "lint:html": "markuplint docs/**/*.html --ruleset ./markuplintrc",
-    "lint:css": "stylelint src/style/*",
-    "validate:html": "html-validator --file=docs/index.html --verbose",
+    "lint:css": "stylelint src/follow/style/*",
+    "validate:html": "html-validator --file=docs/follow/index.html --verbose",
     "test": "npm-run-all -p lint:* validate:html \"prettier --check\"",
-    "prettier": "prettier src/**/*.css",
-    "prettier:fix": "prettier --write ."
+    "prettier": "prettier src/follow/**/*.css",
+    "prettier:fix": "prettier --write src/"
   },
   "devDependencies": {
     "@11ty/eleventy": "^0.10.0",

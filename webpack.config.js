@@ -1,11 +1,11 @@
 module.exports = {
   mode: "production",
   entry: {
-    script: "./src/script/main.ts",
+    script: "./src/follow/script/main.ts",
   },
   output: {
     filename: "[name].js",
-    path: __dirname + "/docs",
+    path: __dirname + "/docs/follow",
   },
   module: {
     rules: [
