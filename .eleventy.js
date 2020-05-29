@@ -18,12 +18,12 @@ module.exports = function (eleventyConfig) {
 
   // Shortcode
   eleventyConfig.addShortcode("cacheBuster", () => {
-    return `?${dayjs().format("YYYYMMDDHHmm")}`
+    return `?${dayjs().format("YYYYMMDDHHmm")}`;
   });
 
   // browser-sync option
   eleventyConfig.setBrowserSyncConfig({
-    startPath: "/follow/"
+    startPath: "/follow/",
   });
 
   return {
